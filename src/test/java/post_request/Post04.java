@@ -47,10 +47,12 @@ public class Post04 extends JsonPlaceHolderBaseUrl {
        // response.prettyPrint();
 
         //Do assertion
-       Map<String ,Object> actualData =response.as(HashMap.class);
+       JsonPlaceHolderPojo actualData =response.as(JsonPlaceHolderPojo.class);//De-Serialization
 
         assertEquals(201,response.statusCode());
-
+        assertEquals(expectedData.getUserId(),actualData.getUserId());
+        assertEquals(expectedData.getTitle(),actualData.getTitle());
+        assertEquals(expectedData.getCompleted(),actualData.getCompleted());
 
 
     }
