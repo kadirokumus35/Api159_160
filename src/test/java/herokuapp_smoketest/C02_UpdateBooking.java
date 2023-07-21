@@ -12,9 +12,7 @@ import static org.testng.Assert.assertEquals;
 import static utils.ObjectMapperUtils.convertJsonToJava;
 
 public class C02_UpdateBooking extends HerOkuAppBaseUrl {
-    //postman acip once create yapip olusturuyoruz
-    //ardindan post yapip create token ile admin ve password gonderip token aliyoruz
-    //sonra put diyip header a token girip post ile alinan id yazilarak degisiklik sagliyoruz.
+
  /*
     Given
         https://restful-booker.herokuapp.com/booking/:id

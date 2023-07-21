@@ -59,3 +59,9 @@ V
 ,src/test/java/pojos/BookingResponsePojo.java,2\b\2bbd009eff616764cacab83ff8b6adb1320f5124
 T
 $src/test/java/put_request/Put02.java,4\4\441ad2344c46f7c0cd6768a4015d4d6aa47eecc4
+`
+0src/test/java/utils/AuthenticationHerOkuApp.java,b\4\b446db52bc62f89558fdd7a98df29c41997f6b22
+]
+-src/test/java/base_urls/HerOkuAppBaseUrl.java,9\3\93a0d5f3087c850f784e9b8d96a79220b560be7d
+Z
+*src/test/java/utils/ObjectMapperUtils.java,6\e\6e11e13b8078d4f3d1ea27882c0adabf8a312413

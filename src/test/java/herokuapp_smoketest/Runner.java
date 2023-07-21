@@ -2,7 +2,9 @@ package herokuapp_smoketest;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
-
+//postman acip once create yapip olusturuyoruz
+//ardindan post yapip create token ile admin ve password gonderip token aliyoruz
+//sonra put diyip header a token girip post ile alinan id yazilarak degisiklik sagliyoruz.
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
         //This class will run the classes below in this order
